@@ -1,0 +1,31 @@
+{
+  "name": "async-helmet",
+  "version": "0.1.0",
+  "description" : "Simple exception wrapper for async tasks",
+  "main": "index.js",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "tap": "~0.4.1",
+    "async": "~0.2.6"
+  },
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git://github.com/jessejlt/async-helmet.git"
+  },
+  "homepage" : "https://github.com/jessejlt/async-helmet",
+  "keywords" : [
+    "exception",
+    "error",
+    "async",
+    "wrapper"
+  ],
+  "author" : {
+    "name" : "Jesse Thompson",
+    "email" : "jessejlt@gmail.com"
+  },
+  "license" : "MIT"
+}

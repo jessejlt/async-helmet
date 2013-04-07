@@ -3,9 +3,11 @@ async-helmet
 
 Simple exception wrapper for async tasks
 
+[![build status](https://secure.travis-ci.org/jessejlt/async-helmet.png)](http://travis-ci.org/jessejlt/async-helmet)
+
 Instead of this
 
-```
+```javascript
 function (callback) {
 
   async.waterfall([
@@ -33,7 +35,7 @@ function (callback) {
 
 do this
 
-```
+```javascript
 function (callback) {
 
   async.waterfall([
